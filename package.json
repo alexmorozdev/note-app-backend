@@ -5,14 +5,15 @@
   "main": "note-app.js",
   "type": "module",
   "scripts": {
-    "start": "node note-app.js",
-    "dev": "nodemon note-app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
